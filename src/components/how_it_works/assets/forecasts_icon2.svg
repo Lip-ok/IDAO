@@ -1,0 +1,18 @@
+<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Isolation_Mode" clip-path="url(#clip0_3_94210)">
+<path id="Vector" d="M30 0H4C1.79086 0 0 1.79086 0 4V30C0 32.2091 1.79086 34 4 34H30C32.2091 34 34 32.2091 34 30V4C34 1.79086 32.2091 0 30 0Z" fill="#E8E8F7"/>
+<g id="Group">
+<path id="Vector_2" d="M15.75 27.5699L7.81 22.9899L7.44 22.3499V12.1599H8.92V21.9199L16.49 26.2899L15.75 27.5699Z" fill="#09363F"/>
+<path id="Vector_3" d="M19.1 19.24H17.62V25.18H19.1V19.24Z" fill="#09363F"/>
+<path id="Vector_4" d="M22.83 17.9099H21.35V25.1799H22.83V17.9099Z" fill="#09363F"/>
+<path id="Vector_5" d="M11.83 9.98999H10.35V17.26H11.83V9.98999Z" fill="#09363F"/>
+<path id="Vector_6" d="M26.56 16.3399H25.08V12.5899L17 7.91993L14.82 9.17993V14.9899H13.34V8.74993L13.71 8.10993L16.63 6.42993H17.37L26.19 11.5199L26.56 12.1599V16.3399Z" fill="#09363F"/>
+<path id="Vector_7" d="M26.56 20.5898H25.08V25.1698H26.56V20.5898Z" fill="#09363F"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_3_94210">
+<rect width="34" height="34" fill="white"/>
+</clipPath>
+</defs>
+</svg>
