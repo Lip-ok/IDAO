@@ -106,7 +106,7 @@ export const Main = () => {
   return (
     <Background>
       <ContentWrapper>
-        <Title>Predict, Earn, Trust</Title>
+        <Title>Predict, Trust, Earn</Title>
         <Description>
           Прогнозируй цены крипто-активов и зарабатывай с помощью IDAO forecast
         </Description>

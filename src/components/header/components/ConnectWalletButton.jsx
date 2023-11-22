@@ -14,7 +14,7 @@ export const ConnectWalletButton = ({ ...props }) => {
   return (
     <Button className="border white" {...props}>
       <WalletIcon />
-      <ButtonText>Подключить кошелек</ButtonText>
+      <ButtonText>Launch App</ButtonText>
     </Button>
   );
 };

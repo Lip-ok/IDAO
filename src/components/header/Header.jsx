@@ -138,7 +138,7 @@ export const Header = () => {
           ))}
         </Links>
         <WalletBlock>
-          <SignIn>Войти</SignIn>
+          {/* <SignIn>Войти</SignIn>  */}
           <StyledConnectWalletButton />
           {desktop && (
             <>

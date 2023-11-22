@@ -1,12 +1,13 @@
 import { styled } from "styled-components";
 import { GlobalWrapper } from "../../styles/common-components";
 import { colorFetch } from "../../styles/functions";
-import backgroundGradient from "../../assets/backgrounds/role_system_bg.svg";
+import background from "../../assets/backgrounds/role_bg.svg";
 import { ReactComponent as BackgroundImage } from "../../assets/backgrounds/role_system_bg_image.svg";
 import control_icon from "./assets/control_icon.svg";
 import roleSystem_icon from "./assets/roleSystem_icon.svg";
 import { TextWithIcon } from "./components/TextWithIcon";
 import { media } from "../../styles/media";
+import backgroundVideo from "../../assets/backgrounds/dao_system_vid.mp4";
 
 const Background = styled.div`
   overflow: hidden;
@@ -15,6 +16,18 @@ const Background = styled.div`
   justify-content: center;
   width: 100%;
   height: 100%;
+`;
+
+const Video = styled.video`
+position: absolute;
+z-index: 1;
+left: -24px;
+bottom: 0;
+
+${media.desktop`
+  width: 450px;
+  height: auto;
+`}
 `;
 
 const StyledBackgroundGradient = styled.img`
@@ -53,7 +66,7 @@ const FirstPart = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 210px;
+  margin-bottom: 80px;
 
   ${media.desktop`
     flex-direction: column;
@@ -136,8 +149,12 @@ export const RoleSystem = () => {
           ))}
         </SecondPart>
       </ContentWrapper>
-      <StyledBackgroundGradient src={backgroundGradient} />
-      <StyledBackgroundImage />
+      <StyledBackgroundGradient src={background} />
+      {/* <StyledBackgroundImage /> */}
+      <Video autoPlay loop muted>
+        <source src={backgroundVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </Video>
     </Background>
   );
 };

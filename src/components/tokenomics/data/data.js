@@ -1,43 +1,43 @@
 export const tokenomicData = [
   {
     text: "Team",
-    count: "150,000",
+    count: "150,000,000",
     percent_part: 15,
   },
   {
     text: "Community",
-    count: "140,000",
-    percent_part: 14,
+    count: "100,000,000",
+    percent_part: 10,
   },
   {
     text: "Investors",
-    count: "300,000",
+    count: "300,000,000",
     percent_part: 30,
   },
   {
     text: "Marketing",
-    count: "50,000",
-    percent_part: 5,
+    count: "70,000,000",
+    percent_part: 7,
   },
   {
     text: "Staking_rewards",
-    count: "100,000",
-    percent_part: 10,
+    count: "50,000,000",
+    percent_part: 5,
   },
   {
     text: "Forecast_rewards",
-    count: "140,000",
-    percent_part: 14,
+    count: "200,000,000",
+    percent_part: 20,
   },
   {
     text: "Other (needs)",
-    count: "50,000",
+    count: "50,000,000",
     percent_part: 5,
   },
   {
     text: "Liquidity",
-    count: "70,000",
-    percent_part: 7,
+    count: "80,000,000",
+    percent_part: 8,
   },
 ];
 

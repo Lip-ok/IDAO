@@ -43,9 +43,12 @@ export const MobileMenu = ({ links, isOpenMobileMenu }) => {
   return (
     <Modal className={isOpenMobileMenu && "open"}>
       <Links>
-        {links.map(({ text }) => (
-          <Link>{text}</Link>
-        ))}
+        {links.map(({ text, url}) => {
+          console.log('text', text);
+          console.log('url', url);
+          return (
+          <Link to={url}>{text}</Link>
+        )})}
       </Links>
       <ConnectWalletButton />
     </Modal>

@@ -66,7 +66,7 @@ export const StartWorkWith = () => {
       <ContentWrapper>
         <Title>Начать работу с IDAO</Title>
         <Button className="border">
-          <ButtonText>Подключить кошелек</ButtonText>
+          <ButtonText>Launch App</ButtonText>
           <ArrowRightIcon />
         </Button>
       </ContentWrapper>
